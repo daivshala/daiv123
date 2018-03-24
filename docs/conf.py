@@ -18,7 +18,7 @@
 #
 # import os
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath('./'))
 
 
 # -- General configuration ------------------------------------------------
@@ -144,6 +144,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
+
 latex_documents = [
     (master_doc, 'daiv123.tex', u'daiv123 Documentation',
      u'daivsh', 'manual'),
@@ -154,6 +155,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
+
 man_pages = [
     (master_doc, 'daiv123', u'daiv123 Documentation',
      [author], 1)
@@ -165,6 +167,7 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
+
 texinfo_documents = [
     (master_doc, 'daiv123', u'daiv123 Documentation',
      author, 'daiv123', 'One line description of project.',
