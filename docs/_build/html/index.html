@@ -1,0 +1,322 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to daiv123’s documentation! &#8212; daiv123 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-daiv123-s-documentation">
+<h1><a class="toc-backref" href="#id1">Welcome to daiv123’s documentation!</a><a class="headerlink" href="#welcome-to-daiv123-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p><img alt="Python" src="https://img.shields.io/badge/python-2.7%2C%203.6-blue.svg" /> <a class="reference external" href="https://github.com/projectreadit/readit/blob/master/LICENSE"><img alt="Licence" src="https://img.shields.io/badge/license-GPLv3-yellow.svg?maxAge=2592000" /></a> <a class="reference external" href="https://travis-ci.org/projectreadit/readit"><img alt="Build Status" src="https://travis-ci.org/projectreadit/readit.svg?branch=master" /></a></p>
+<a class="reference external image-reference" href="https://asciinema.org/a/UcO8Ast5X94F3kNtCuew7yZb2?t=1"><img alt="asciicast" src="https://asciinema.org/a/UcO8Ast5X94F3kNtCuew7yZb2.png" /></a>
+<div class="section" id="introduction">
+<h2><a class="toc-backref" href="#id2">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Readit is command line bookmark manager. It is a command line utility to add, delete, update and display the bookmarks. It is a powerful bookmark manager written in Python. It uses SQLite3 to store the bookmarks.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#welcome-to-daiv123-s-documentation" id="id1">Welcome to daiv123’s documentation!</a><ul>
+<li><a class="reference internal" href="#introduction" id="id2">Introduction</a></li>
+<li><a class="reference internal" href="#features" id="id3">Features</a></li>
+<li><a class="reference internal" href="#installation" id="id4">Installation</a></li>
+<li><a class="reference internal" href="#dependencies" id="id5">Dependencies</a></li>
+<li><a class="reference internal" href="#from-a-package-manager" id="id6">From a package manager</a></li>
+<li><a class="reference internal" href="#release-packages" id="id7">Release Packages</a></li>
+<li><a class="reference internal" href="#usage" id="id8">Usage</a></li>
+<li><a class="reference internal" href="#cmdline-options" id="id9">Cmdline options</a></li>
+<li><a class="reference internal" href="#examples" id="id10">Examples</a></li>
+<li><a class="reference internal" href="#how-to-contribute" id="id11">How to Contribute</a></li>
+<li><a class="reference internal" href="#project-structure" id="id12">Project Structure</a></li>
+<li><a class="reference internal" href="#collaborators" id="id13">Collaborators</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables" id="id14">Indices and tables</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="features">
+<h2><a class="toc-backref" href="#id3">Features</a><a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Bookmark multiple URLs at a time</li>
+<li>Bookmark URL with respective Tags</li>
+<li>Search and display Bookmarks by TAG</li>
+<li>Display all Bookmarks in table format</li>
+<li>Remove a Bookmarked URL</li>
+<li>Remove all Bookmarked URLs</li>
+<li>Update a Bookmarked URL with specific ID</li>
+<li>URL validation</li>
+<li>Open URL in browser</li>
+</ul>
+</div>
+<div class="section" id="installation">
+<h2><a class="toc-backref" href="#id4">Installation</a><a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="dependencies">
+<h2><a class="toc-backref" href="#id5">Dependencies</a><a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="71%" />
+<col width="29%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Features</th>
+<th class="head">Dependancy</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">Scripting</span> <span class="pre">Language</span></code></td>
+<td>Python 2.7+</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">HTTP(S)</span></code></td>
+<td>requests</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">Command-Line</span> <span class="pre">Option</span> <span class="pre">and</span> <span class="pre">argument</span> <span class="pre">parsing</span></code></td>
+<td>Click</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">Database</span> <span class="pre">Used</span></code></td>
+<td>SQLite3</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">Display</span> <span class="pre">Bookmarks</span> <span class="pre">in</span> <span class="pre">Table</span></code></td>
+<td>beautifultable</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="from-a-package-manager">
+<h2><a class="toc-backref" href="#id6">From a package manager</a><a class="headerlink" href="#from-a-package-manager" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://pypi.python.org/pypi/readit/0.1.1">PyPi</a> (pip3 install –user readit).</li>
+</ul>
+</div>
+<div class="section" id="release-packages">
+<h2><a class="toc-backref" href="#id7">Release Packages</a><a class="headerlink" href="#release-packages" title="Permalink to this headline">¶</a></h2>
+<p>Packages for Fedora are availabe with the <a class="reference external" href="https://github.com/projectreadit/readit/releases/tag/v0.1.1">latest release</a>.</p>
+</div>
+<div class="section" id="usage">
+<h2><a class="toc-backref" href="#id8">Usage</a><a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="cmdline-options">
+<h2><a class="toc-backref" href="#id9">Cmdline options</a><a class="headerlink" href="#cmdline-options" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>Usage: readit <span class="o">[</span>OPTIONS<span class="o">]</span> <span class="o">[</span>INSERT<span class="o">]</span>...
+
+  Readit - Command-line bookmark manager tool.
+
+Options:
+-a, --add TEXT...     Add URLs with space-separated
+-t, --tag TEXT...     Add Tag with space-separated URL
+-d, --delete TEXT     Remove a URL of particular ID
+-c, --clear TEXT...   Clear bookmarks
+-u, --update TEXT...  Update a URL <span class="k">for</span> specific ID
+-s, --search TEXT     Search all bookmarks by Tag
+-v, --view TEXT...    Show bookmarks
+-o, --openurl TEXT    Open URL in Browser
+-V, --version         Check latest version
+--help                Show this message and exit.
+</pre></div>
+</div>
+</div>
+<div class="section" id="examples">
+<h2><a class="toc-backref" href="#id10">Examples</a><a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Bookmark</strong> multiple URLs:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit url1 url2 ...
+or
+$ readit --add url1 url2 ...
+or
+$ readit -a url1 url2 ...
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><strong>View</strong> all available bookmarks:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -v
+or
+$ readit --view
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><strong>Update</strong> a bookmark using it’s ID:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -u url_id url
+or
+$ readit --update url_id url
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><strong>Delete</strong> a bookmarked URL using it’s ID:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -d url_id
+or
+$ readit --delete url_id
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><strong>Clear</strong> all the bookmarks:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -c
+or
+$ readit --clear
+</pre></div>
+</div>
+<ol class="arabic simple" start="6">
+<li><strong>Bookmark</strong> URL with TAG:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -t tag_name url
+or
+$ readit --tag tag_name url
+</pre></div>
+</div>
+<ol class="arabic simple" start="7">
+<li><strong>Search</strong> and <strong>Display</strong> all bookmarks using TAG:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -s tag_name
+or
+$ readit --search tag_name
+</pre></div>
+</div>
+<ol class="arabic simple" start="8">
+<li>Open URL in Browser using specific ID:</li>
+</ol>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ readit -o urlid
+or
+$ readit --openurl urlid
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-to-contribute">
+<h2><a class="toc-backref" href="#id11">How to Contribute</a><a class="headerlink" href="#how-to-contribute" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Clone project from github:</li>
+</ul>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ git clone https://github.com/projectreadit/readit.git
+</pre></div>
+</div>
+<ul class="simple">
+<li>We recommend to create and activate a virtualenv first:</li>
+</ul>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> readit/
+
+$ virtualenv venv
+
+$ <span class="nb">source</span> venv/bin/activate
+
+<span class="o">(</span>venv<span class="o">)</span> $
+</pre></div>
+</div>
+<ul class="simple">
+<li>To install using setup.py file:</li>
+</ul>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="o">(</span>venv<span class="o">)</span> $ python setup.py install
+</pre></div>
+</div>
+<ul class="simple">
+<li>To make build of project:</li>
+</ul>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="o">(</span>venv<span class="o">)</span> $ python setup.py build
+</pre></div>
+</div>
+</div>
+<div class="section" id="project-structure">
+<h2><a class="toc-backref" href="#id12">Project Structure</a><a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Flowchart</li>
+<li>Modules</li>
+</ul>
+</div>
+<div class="section" id="collaborators">
+<h2><a class="toc-backref" href="#id13">Collaborators</a><a class="headerlink" href="#collaborators" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/daivshala">Daivshala Vighne</a></li>
+<li><a class="reference external" href="https://github.com/ganeshhubale">Ganesh Hubale</a></li>
+<li><a class="reference external" href="https://github.com/shitalmule04">Shital Mule</a></li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1><a class="toc-backref" href="#id14">Indices and tables</a><a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, daivsh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
